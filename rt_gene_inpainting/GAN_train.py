@@ -13,7 +13,7 @@ from utils import PRL_data_image_load, write_log, GAN_plot_images
 class GAN_train(object):
     def __init__(self, dataset_common_folder_path, dataset):
         self.dataset_folder_path = dataset_common_folder_path + dataset + "_noglasses"
-        self.dataset_path_images = self.dataset_folder_path + '/natural/face_before_inpainting'
+        self.dataset_path_images = self.dataset_folder_path + '/natural/face'
         self.dataset_path_GAN = self.dataset_folder_path + '/natural/GAN'
         self.dataset_path_GAN_model = self.dataset_path_GAN + '/model'
         self.dataset_path_GAN_samples = self.dataset_path_GAN + '/samples'
